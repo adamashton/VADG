@@ -1,0 +1,55 @@
+﻿<UserControl x:Class="VADG.Drawer.NonterminalExpanded"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Height="Auto" Width="Auto" BorderThickness="1" BorderBrush="Black" HorizontalAlignment="Center" 
+             VerticalAlignment="Center" Margin="5" Name="uControl">
+    
+    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Vertical" Name="stackPanelOuter">
+        
+        <!-- heading -->
+        <StackPanel Name="stackPanelHeading" Orientation="Horizontal" >
+            <Button Height="20" HorizontalAlignment="Left" VerticalAlignment="Top" Width="20" Content="-" Name="collapseBtn" Margin="3" Click="collapseBtn_Click" />
+            
+            <Image Name="arrow_right" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="3">
+                <Image.Source>
+                    arrow_right.bmp
+                </Image.Source>
+            </Image>
+
+            <Image Name="arrow_down" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="3" Visibility="Collapsed">
+                <Image.Source>
+                    arrow_down.bmp
+                </Image.Source>
+            </Image>
+        </StackPanel>
+        
+        
+        <!-- content expanded -->
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Name="stackPanelInner" Orientation="Horizontal">
+            <!-- context menu -->
+            <StackPanel.ContextMenu>
+                <ContextMenu Name="rightClickMenu">
+                    <MenuItem Header="Add...">
+                        <MenuItem Header="After this" Name="addAfter" Click="addAfter_Click" />
+                        <MenuItem Header="Before this" Name="addBefore" Click="addBefore_Click" />
+                        <MenuItem Header="Choice" Name="addChoice" Click="addChoice_Click" />
+                    </MenuItem>
+                    <MenuItem Header="Remove This" Name="delete" Click="delete_Click" />
+                    <MenuItem Header="Remove Choice" Name="removeChoice" Click="removeChoice_Click" />
+                </ContextMenu>
+            </StackPanel.ContextMenu>
+
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Name="stackPanelName" Orientation="Vertical" MouseLeftButtonDown="stackPanelName_MouseLeftButtonDown" >
+                <Label Name="labelName" HorizontalAlignment="Center" VerticalAlignment="Center" Content="name" />
+                <Label Name="isLabel" HorizontalAlignment="Center" VerticalAlignment="Center" Content="is" />
+            </StackPanel>
+            
+            <UserControl Name="holder" HorizontalAlignment="Center" VerticalAlignment="Center">Rules go here</UserControl>
+
+        </StackPanel>       
+        
+        
+    </StackPanel>
+    
+    
+</UserControl>

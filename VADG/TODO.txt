@@ -1,0 +1,9 @@
+﻿1) Create a visitor pattern to expand a collapsed nonterminalTailV
+	traverse the Defintive grammar and return a NonterminalTailV and it's rule	
+	must handle levels and directions	
+	
+2) Clean up the data structure
+	- remove create visual
+	- emphasise using the Facade 'Model'
+
+3) 

@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access" MembersFormat="FullSignature">
+  <Class Name="VADG.DataStructure.GrammarNodeD">
+    <Position X="13.75" Y="0.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definitive\GrammarNodeD.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VADG.DataStructure.OperationD">
+    <Position X="7.75" Y="2.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definitive\OperationD.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VADG.DataStructure.SymbolD">
+    <Position X="23.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definitive\SymbolD.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VADG.DataStructure.ChoiceD">
+    <Position X="1.25" Y="5.5" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAACAAAAAEAAAAAAAAAAAQAAAAEAACAAAAAAA=</HashCode>
+      <FileName>Definitive\ChoiceD.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VADG.DataStructure.ChoiceLineD">
+    <Position X="6.75" Y="5.5" Width="5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAACAAAAAEAAAAAAAAAAAQAAAAEAACAAAAAAA=</HashCode>
+      <FileName>Definitive\ChoiceLineD.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VADG.DataStructure.ConcatenationD">
+    <Position X="12.5" Y="5.5" Width="5.25" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAACAAAAAEAAAAAAAAAAAQAAAAEAACAAAAAAA=</HashCode>
+      <FileName>Definitive\ConcatenationD.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VADG.DataStructure.NonterminalHeadD">
+    <Position X="18.5" Y="4.5" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAASAEAAGgIAAACAAAAAAQAAAgUIAAAEAACAAAAAAA=</HashCode>
+      <FileName>Definitive\NonterminalHeadD.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VADG.DataStructure.NonterminalTailD">
+    <Position X="23.25" Y="4.5" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAACACAACAAgAAEAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Definitive\NonterminalTailD.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VADG.DataStructure.TerminalD" Collapsed="true">
+    <Position X="28" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAACAAAAAEAAAAAAQAAAAUAAAAEAACAAAAAAA=</HashCode>
+      <FileName>Definitive\TerminalD.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

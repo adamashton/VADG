@@ -1,0 +1,15 @@
+﻿<UserControl x:Class="VADG.Drawer.TerminalActionBar"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Height="Auto" Width="Auto" MinWidth="120" Background="LightGray" BorderBrush="Black" BorderThickness="1">
+    <StackPanel>
+        <Label Content="Terminal Control" Margin="3" FontWeight="Bold" />
+        <TextBox Text="Name__Here" Name="nameTextBox" Margin="3" />
+        <Button Content="Rename All" Name="renameAll" HorizontalAlignment="Left" Margin="3" Click="renameAll_Click" />
+        <Button Content="Rename This" Name="renameThis" HorizontalAlignment="Left" Margin="3" IsEnabled="False" />
+        <Button Content="Delete" Name="delete" HorizontalAlignment="Left" Margin="3" IsEnabled="True" Click="delete_Click" />
+        <Button Content="Add Control After" Name="addAfter" HorizontalAlignment="Left" Margin="3" IsEnabled="True" Click="addAfter_Click" />
+        <Button Content="Add Control Before" Name="addBefore" HorizontalAlignment="Left" Margin="3" IsEnabled="True" Click="addBefore_Click" />
+        <Button Content="Add Choice" Name="addChoice" HorizontalAlignment="Left" Margin="3" IsEnabled="True" Click="addChoice_Click" />
+    </StackPanel>
+</UserControl>

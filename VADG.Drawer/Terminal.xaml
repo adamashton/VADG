@@ -1,0 +1,20 @@
+﻿<UserControl x:Class="VADG.Drawer.Terminal"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Height="Auto" Width="Auto" Margin="5" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" HorizontalAlignment="Center" VerticalAlignment="Center" Name="terminalControl" MouseLeftButtonDown="terminalControl_MouseLeftButtonDown">
+    
+    <!-- context menu -->
+    <UserControl.ContextMenu>
+        <ContextMenu Name="rightClickMenu">
+            <MenuItem Header="Add...">
+                <MenuItem Header="After this" Name="addAfter" Click="addAfter_Click" />
+                <MenuItem Header="Before this" Name="addBefore" Click="addBefore_Click" />
+                <MenuItem Header="Choice" Name="addChoice" Click="addChoice_Click" />
+            </MenuItem>
+            <MenuItem Header="Remove This" Name="delete" Click="delete_Click" />
+            <MenuItem Header="Remove Choice" Name="removeChoice" Click="removeChoice_Click" />
+        </ContextMenu>
+    </UserControl.ContextMenu>
+    
+    <Label Name="label" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0" Visibility="Visible" />    
+</UserControl>

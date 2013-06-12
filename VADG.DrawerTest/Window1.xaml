@@ -1,0 +1,22 @@
+﻿<Window x:Class="VADG.DrawerTest.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Visualising and Desiging Grammars" Height="Auto" Width="Auto">
+    <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
+    <StackPanel Orientation="Vertical">
+        <StackPanel Orientation="Horizontal">
+            <StackPanel Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Top">
+                <Button Name="grammar0" Content="Basic" Click="grammar_Click" Grid.Row="1"  />
+                <Button Name="grammar1" Content="Nont with Nont" Click="grammar_Click" Grid.Row="1"  />
+                <Button Name="grammar2" Content="Recursion" Click="grammar_Click" Grid.Row="1" />
+                <Button Name="grammar3" Content="Choice" Click="grammar_Click" Grid.Row="1"  />
+                <Button Name="grammar4" Content="Math Op" Click="grammar_Click" Grid.Row="1"  />            
+            </StackPanel>
+            
+            <TextBox Name="grammarText" VerticalAlignment="Top" Height="110" MinWidth="200"></TextBox>
+        </StackPanel>    
+        
+        <Grid Height="Auto" Width="Auto" HorizontalAlignment="Left" VerticalAlignment="Center" Name="grid1" />
+    </StackPanel>
+</ScrollViewer>
+</Window>
