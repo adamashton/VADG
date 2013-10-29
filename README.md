@@ -1,7 +1,4 @@
-VADG
-====
-
-VADG stands for Visualising And Desigining Grammars. This program will take programming language grammars as inputs and visualise them so they are easier to comprehend. This was my 3rd year project during University and my first attempt at writing a C# system from scratch using the Model View Controller pattern.
+Visualising And Desigining Grammars. This program will take programming language grammars as inputs and visualise them so they are easier to comprehend. This was my 3rd year project during University and my first attempt at writing a C# system from scratch using the Model View Controller pattern.
 
 ABSTRACT
 ========
